@@ -1,0 +1,36 @@
+name: routine_reminder
+description: A routine reminder app with categories and alarms.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons for iOS style
+  cupertino_icons: ^1.0.2
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+
+  # State Management (Required for AppState)
+  provider: ^6.0.0
+
+  # Date and Time Formatting (Required for formatting alarm times)
+  intl: ^0.18.0
+
+  # Professional Fonts (Required for the new UI)
+  google_fonts: ^6.0.0
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
